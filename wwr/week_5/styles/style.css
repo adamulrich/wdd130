@@ -1,116 +1,116 @@
-#content,.join,.mountains,#hero-img {
+#content, .join, .mountains, #hero-img {
     display:block;
     max-width:1200px;
     margin:0 auto;
     }
     
-    #hero-img {
+#hero-img {
     width:100%;
     }
     
-    nav a {
+nav a {
     text-align:center;
     color:#fff;
     text-decoration:none;
     padding:35px;
     }
     
-    .msg {
+.msg {
     line-height:1.5em;
     padding:35px;
     }
     
-    #background {
+#background {
     height:725px;
     background-color:#393d75;
     }
     
-    body {
+body {
     background-color:#e7e7ea;
     align-content:center;
     margin:0;
     padding:0;
     }
     
-    header {
+header {
     background-color:#393d75;
     }
     
-    nav a:hover,.book:hover,.join:hover,footer a:hover {
+nav a:hover, .book:hover, .join:hover, footer a:hover {
     background-color:#f1ab33;
     }
     
-    .home-title {
+.home-title {
     font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     margin-top:10px;
     font-size:2em;
     color:#f1ab33;
     }
     
-    h2 {
+h2 {
     margin:0;
     }
     
-    .book,.join {
+.book, .join {
     font-size:18px;
     margin-top:50px;
     border-radius:5px;
     padding:15px 30px;
     }
     
-    h4,.book,.join,.msg h2,.msg p,footer h3,footer a {
+h4,.book,.join, .msg h2,.msg p, footer h3, footer a {
     color:#293043;
     }
     
-    .icon {
+.icon {
     width:80px;
     padding-top:10px;
     }
     
-    .social a:hover {
+.social a:hover {
     background-color:#e7e7ea;
     }
     
-    .logo {
+.logo {
     width:80px;
     }
     
-    h1,h2,h3,h4 {
+h1,h2,h3,h4 {
     font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     }
     
-    .msg p {
+.msg p {
     font-size:.8em;
     padding-bottom:15px;
     }
     
-    #logo_link {
+#logo_link {
     padding-top:5px;
     }
     
-    footer {
+footer {
     margin-top:200px;
     padding:25px 50px;
     }
     
-    footer .social img {
+footer .social img {
     padding-top:15px;
     }
     
-    .rivers-card,.camping-card,.rapids-card {
+.rivers-card, .camping-card, .rapids-card {
     margin:200px 0;
     }
     
-    .card-img {
+.card-img {
     border-color:#f1ab33;
     border-width:10px;
     border-style:solid ;
     }
     
-    main section img {
+main section img {
     box-sizing:border-box;
     }
     
-    #hero-msg h1,#hero-msg h4,.button-box,main section {
+#hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align:center;
     }
