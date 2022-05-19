@@ -49,10 +49,17 @@ img {
   display: block;
   margin: 0 auto;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: var(--heading-font);
   letter-spacing: 3px;
   color: var(--headline-color-on-white);
+}
+
+  h4, h5, h6 {
+    font-family: var(--heading-font);
+    letter-spacing: 2px;
+    color: var(--headline-color-on-white);
+
 }
 h2 {
   text-align: center;
@@ -76,6 +83,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
+  letter-spacing: 0.4px;
 }
 .colors {
   width: 100%;
