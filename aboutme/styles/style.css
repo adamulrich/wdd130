@@ -11,6 +11,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.family img {
+    max-width: 640px;
+    width: 100%;
+}
+
 .home, .profile{
     background-color: cadetblue;   
 }
@@ -59,10 +64,6 @@ body {
     grid-row: 1/2;
 }
 
-.main_text {
-
-
-}
 
 .footer {
     grid-column: 1/6;
