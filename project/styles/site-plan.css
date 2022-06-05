@@ -213,3 +213,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
+
+.wireframe {
+  max-width: 800px;
+}

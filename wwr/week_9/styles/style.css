@@ -278,9 +278,26 @@ button {
     background-color: #393d75;
     color: #e7e7ea;
     align-self: center;
+    border-color: #6f7364;
+    border-width: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+
+
 button:hover {
     background-color: white;
     color: #6f7364;
+    border-color: #f1ab33;
+    border-width: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 
+
+#river_image   {
+    border-color:#f1ab33;
+    border-width:5px;
+    border-style:solid ;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 40px;
 }
