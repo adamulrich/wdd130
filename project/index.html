@@ -14,34 +14,66 @@
         $(function(){
         $("#header").load("header.html"); 
         $("#footer").load("footer.html"); 
-    });
+    })
+
+    function update_product_selection(selection_number) {
+        var img = document.getElementById("product_image");
+        var text_block = document.getElementById("product_text");
+        switch(selection_number) {
+            case 1:
+                //duo2
+                img.src="images/DuoDock_2.jpg"
+                text_block.innerHTML = "The DuoDock 2 for the Surface Duo 2. Supports Full PD100 charging, and video out through.";
+                break;
+            case 2:
+                //duo1 mag
+                img.src="images/black mag profile (Medium).jpg"
+                text_block.innerHTML = "The Magnetic DuoDock for the Surface Duo. Supports Full PD100 charging, and video out.";
+                break;
+            case 3:
+                //duo1 usb-c
+                img.src="images/white usb c (Medium).jpg"
+                text_block.innerHTML = "The original USB-C DuoDock for the Surface Duo. Supports Full PD100 charging, and video out.";
+                break;
+            case 4:
+                //mag cable
+                img.src="images/magnetic_cable (medium).jpg"
+                text_block.innerHTML = "1.5 meter magnetic cable. Includes the magnetic connector that comes with the Magnetic DuoDock.";
+                break;
+
+        }
+    }
 </script> 
 </head>
-<body>
+<body onload="update_product_selection(1);">
     <div id="content">
         <div id="header"></div>
 
         <main>
             <div id="news">
                 <h2>Latest News</h2>
-                <p>Insert news here.</p>
+                <p>We are happy to begin shipping the DuoDock 2 for the Surface Duo 2! 
+                    We iterated for 6 months to provide a stable dock for your Duo 2 that we are proud to 
+                    sell.
+                    
+                </p>
             </div>
             <div id="products">
                 <h2>Products</h2>
-                <button id="duo2">DuoDock 2 for Surface Duo 2</button>
-                <button id="duo_1_mag">DuoDock for Surface Duo (Magnetic)</button>
-                <button id="duo_1_usbc">DuoDock for Surface Duo (USB-C)</button>
-                <button id="mag_cable">Magnetic Cable</button>
+                <button id="duo2" onclick="update_product_selection(1);">DuoDock 2 for Surface Duo 2</button>
+                <button id="duo_1_mag" onclick="update_product_selection(2);">DuoDock for Surface Duo (Magnetic)</button>
+                <button id="duo_1_usbc" onclick="update_product_selection(3);">DuoDock for Surface Duo (USB-C)</button>
+                <button id="mag_cable" onclick="update_product_selection(4);">Magnetic Cable</button>
             </div>
-            <div id="product_image">
-                <img src="images/black mag (Medium).jpg" alt="DuoDock">
+            <div id="product_image_div">
+                <img id="product_image" src="images/black mag (Medium).jpg" alt="DuoDock">
             </div>
             <div id="video">
                 <h2>In Action</h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/GSAK625-Dfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div id="item_text">
-                <p>blank text.</p>
+            <div id="product_text_div">
+                <p id="product_text">blank text.</p>
             </div>
             <div id = "square_link">
                 <a id="square_purchase" href="#">Buy Now!</a>
@@ -49,7 +81,7 @@
             <div id ="colors">
                 <img src="images/black usb c (Medium).jpg">
                 <img src="images/white mag with slim pen dock (Medium).jpg">
-                <img src="images/marble mag (Medium).jpg"
+                <img src="images/marble mag (Medium).jpg">
             </div>
         </main>
         
