@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DuoDocks Reviews</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+    });
+</script> 
 </head>
 <body>
-    
+    <div id="content">
+        <div id="header"></div>
+        <div id="main_contact">
+            <div id="column_1">
+                <img id="contact_icon" src="images/contact.svg" alt="envelope icon">
+                <h2>Contact us!</h2>
+                <p id="contact_info">insert contact info here.</p>
+                <a id="mail_link" href="mailto:duodocks@gmail.com">mailto:duodocks@gmail.com</a>
+            </div>
+            <div id="divider_bar"></div>
+            <div id="column_3">
+                <h2>ScaryifLiteral Review</h2>
+                <p>Insert text here.</p>
+                <h2>ScaryifLiteral Review 2</h2>
+                <p>Insert text here.</p>
+                <h2>Social Media Group Links</h2>
+                <img id="social_media_icon" src="images/reviews.svg" alt="review icon">
+            </div>
+            <div id="column_4">
+                <iframe id="scary_review_2" width="560" height="315" src="https://www.youtube.com/embed/HZNk0m_k6Q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="scare_review_1" width="560" height="315" src="https://www.youtube.com/embed/aY16rZWy8yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a class="social_media" href="https://www.facebook.com/search/posts/?q=DuoDock%20Surface%20Duo%20Central">Facebook Surface Duo Central</a>
+                <a class="social_media" href="https://www.reddit.com/r/surfaceduo/search/?q=duo%20dock&restrict_sr=1&sr_nsfw=">Reddit Surface Duo</a>                
+
+            </div>
+
+        </div>
+
+
+        <div id="footer"></div>
+    </div>
 </body>
 </html>

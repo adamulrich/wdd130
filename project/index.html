@@ -5,8 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DuoDocks Home</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+    });
+</script> 
 </head>
 <body>
-    
+    <div id="content">
+        <div id="header"></div>
+
+        <main>
+            <div id="news">
+                <h2>Latest News</h2>
+                <p>Insert news here.</p>
+            </div>
+            <div id="products">
+                <h2>Products</h2>
+                <button id="duo2">DuoDock 2 for Surface Duo 2</button>
+                <button id="duo_1_mag">DuoDock for Surface Duo (Magnetic)</button>
+                <button id="duo_1_usbc">DuoDock for Surface Duo (USB-C)</button>
+                <button id="mag_cable">Magnetic Cable</button>
+            </div>
+            <div id="product_image">
+                <img src="images/black mag (Medium).jpg" alt="DuoDock">
+            </div>
+            <div id="video">
+                <h2>In Action</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GSAK625-Dfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="item_text">
+                <p>blank text.</p>
+            </div>
+            <div id = "square_link">
+                <a id="square_purchase" href="#">Buy Now!</a>
+            </div>
+            <div id ="colors">
+                <img src="images/black usb c (Medium).jpg">
+                <img src="images/white mag with slim pen dock (Medium).jpg">
+                <img src="images/marble mag (Medium).jpg"
+            </div>
+        </main>
+        
+        <div id="footer"></div>
+    </div>
 </body>
 </html>
