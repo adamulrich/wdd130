@@ -51,6 +51,10 @@ nav a:hover, .book:hover, .join:hover, footer a:hover {
     color:#f1ab33;
     }
     
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 h2 {
     margin:0;
     }
