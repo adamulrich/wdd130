@@ -216,16 +216,16 @@ nav a:hover
 }
 
 #video iframe {
-  margin-top: 30px;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
 #video h2 {
   grid-column: 1/2;
   grid-row: 3/4;
-  text-align: left;
-  margin-left: 0px;
+  text-align: center;
+  margin-left: 60px;
 }
 
 #product_text,
@@ -255,12 +255,15 @@ nav a:hover
 #colors {
   grid-column: 4/5;
   grid-row: 4/6;
-
+  
 }
 
 #colors img {
   height: 250px;
-  margin-left: 80px;
+  margin-left: 70px;
+  margin-top: -30px;
+  margin-bottom: 0px;
+  
 
 }
 
